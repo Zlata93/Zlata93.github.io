@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
+	<title>Math Bomb</title>
+    
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="styling.css">
+    
+</head>
+    
+<body>
+    <div id="container">
+        
+        <div id="gameover" class="table"><span id="gameoverMsg">Game Over!<br/><br/></span>
+            <button id="ok1">Ok</button>
+        </div>
+        <div id="congratulation" class="table"><span id="congratulationMsg">Game Over!<br/><br/>Your score is </span><span id="finalScore"></span> 
+            <button id="ok2">Ok</button>
+        </div>
+
+        <div id="question"></div>
+
+        <div id="choices">
+            <div id="box1" class="box"></div>
+            <div id="box2" class="box"></div>
+            <div id="box3" class="box"></div>
+            <div id="box4" class="box"></div>
+        </div>
+
+        <div id="sidebar">
+            <div id="timer"><span id="time">01</span>:<span id="countDown">00</span></div>
+            <div id="bombs">
+                <i class="fa fa-bomb" aria-hidden="true" id="bomb1"></i>
+                <i class="fa fa-bomb" aria-hidden="true" id="bomb2"></i>
+                <i class="fa fa-bomb" aria-hidden="true" id="bomb3"></i>
+            </div>
+            <div id="correct"><span id="correctValue"><span id="minCorrectAnswers">15</span> x </span><i class="fa fa-check" aria-hidden="true" id="check"></i></div>
+        </div>
+
+        <div id="button">Press</div>
+
+    </div>
+    
+    <script src="javascript.js"></script>
+    
+</body>
+    
+</html>
